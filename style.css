@@ -4,11 +4,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #A9CCE3;
     color: #000;
     padding: 2.5px;
     margin-bottom: 5em;
-    background-image: url("night-sky-milky-way-galaxy_601658-108.jpeg");
+    position: fixed;
+    height: 125px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   
   body {
@@ -93,12 +98,20 @@ header {
     font-weight: normal;
     margin-right: 30em;
     margin-top: -1.5em;
-    display: flex;
-  
+    display: flex;  
+  }
+  .hero-about {
+    font-family: 'Papyrus', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10rem;
+    font-weight: normal;
+    margin-right: 30em;
+    margin-top: -1.5em;
+    display: flex; 
   }
     
   footer {
-    background-color: #fff;
+    background-color: #A9CCE3;
     box-shadow: 0 -2px 4px -2px black;
     display: flex;
     justify-content: center;
