@@ -1,4 +1,5 @@
-/*
+/* Contact.js 
+
 const form = document.querySelector("#form");
 const submitButton = document.querySelector("#submit");
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxLZTlgHBunzjDAyvzTFB9AAQZS2vGT4hSZKlfMDVMQrrHEQwKDYO2-fo05BNfFegYWVg/exec';
@@ -42,7 +43,7 @@ function showAlert(message, type) {
 
 
 
-/* Contact.js Part 2 
+/* Contact.js II 
 
 console.log('We are connected!');
 
@@ -70,7 +71,7 @@ form.addEventListener('submit', e => {
 
 
 
-// Contact.js 
+// Contact.js III
 
 const form = document.querySelector("#contact-form");
 const submitButton = document.querySelector("#submit");

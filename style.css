@@ -1,165 +1,274 @@
 /* Index.css */
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #A9CCE3;
-    color: #000;
-    padding: 2.5px;
-    margin-bottom: 5em;
-    position: fixed;
-    height: 125px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #A9CCE3;
+  color: #000;
+  padding: 2.5px;
+  margin-bottom: 5em;
+  position: fixed;
+  height: 125px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+body {  
+  background-color: #000000;
+  background-image: url("Images/night-sky-milky-way-galaxy_601658-108.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fafafa;
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+  */
+img {
+  width: 40px;
+  height: auto;
+  margin-bottom: center;
+}
+  
+nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  height: 30px;
+  margin: 0 10px;
+  width: 30px;
+  font-size: 1.5rem;
+  
+
+}
+  
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px;
+  transition: color 0.2s ease-in-out;
+}
+  
+nav a:hover {
+  color: #00ebfc;
+}
+.nav-links {
+  display: grid;
+}
+  
+/*.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 156px);
+}*/
+main  {
+  min-height: 100vh;
+  padding: 64px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url("Images/night-sky-milky-way-galaxy_601658-108.jpeg");
+  max-width: 960px;
+  color: #f8f8f8;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+
+  justify-content: space-around;
+}
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  background: rgb(54, 28, 80);
+}
+
+.hero-quote {
+  font-family: 'brush Script MT';
+  font-weight: 100;
+  color: rgb(249, 251, 237);
+  text-shadow: rgb(255, 238, 0) 1px 0 10px;
+  font-size: 2em;
+  text-align: center;
+  margin-top: auto;
   }
   
-  body {
-    
-    background-color: #000000;
-    background-image: url("Images/night-sky-milky-way-galaxy_601658-108.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fafafa;
-    font-family: sans-serif;
-    margin: 0 auto;
-    padding: 0;
-  }
-    
-  img {
-    width: 40px;
-    height: auto;
-    margin-bottom: center;
-  }
-    
-  nav {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.site-title {
+  font-family: 'Papyrus', sans-serif;
+  font-size: 3.5rem;
   }
   
-  .active {
-    height: 30px;
-    margin: 0 10px;
-    width: 30px;
-    font-size: 1.5rem;
-    
+section {
+  font-family: 'Papyrus', sans-serif;
+  font-size: 4em;
+  margin-bottom: 10rem;
+  font-weight: bolder;
+  margin-right: 30em;
+  margin-top: -1.5em;
   
-  }
-    
-  nav a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 10px;
-    transition: color 0.2s ease-in-out;
-  }
-    
-  nav a:hover {
-    color: #00ebfc;
-  }
-  .nav-links {
-    display: grid;
-  }
-    
-  main {
-    display: flex;
+ 
+}
+/*.hero-about {
+  font-family: 'Papyrus', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10rem;
+  font-weight: normal;
+  margin-right: 30em;
+  margin-top: -1.5em;
+  display: flex; 
+}*/
+
+  
+footer {
+  background-color: #A9CCE3;
+  box-shadow: 0 -2px 4px -2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+ 
+.footer-link {
+  display: inline-block;
+  margin: 0 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* About page */
+
+.about  {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  width: calc(100% - 6em);
+  background: #e7e2e2;
+  color: #000000;
+  box-shadow: rgb(0, 0, 0);
+  margin: 5em;
+  padding: 1em;
+}
+h2, section::after  {
+  display: block;
+  
+}
+
+/* Contact page */ 
+
+.form {
+  font-weight: 50;
+  font-family: 'papyrus', sans-serif;
+  font-size: 1.85em;
+  color: rgb(255, 255, 255);
+  display: grid;
+  justify-content: space-around;
+ }
+
+input {
+  font-weight: 30;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: rgb(4, 4, 4);
+}
+
+textarea {
+  font-weight: 10;
+  font-family: '', sans-serif;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  display: grid;
+  justify-content: space-around;
+  padding: -10em; 
+}
+*/
+
+
+.media-link {
+  height: 30px;
+  margin: 0 10px;
+  width: 30px;
+}
+  
+@media screen and (max-width: 768px) {
+  header {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 156px);
-  }
-  
-  .hero-quote {
-    font-family: 'brush Script MT';
-    font-weight: 100;
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(255, 238, 0) 1px 0 10px;
-    font-size: 3em;
     text-align: center;
-    margin-top: auto;
-  }
-    
-  .site-title {
-    font-family: 'Papyrus', sans-serif;
-    font-size: 3.5rem;
-    margin-bottom: 0;
-  }
-    
-  .hero-title {
-    font-family: 'Papyrus', sans-serif;
-    font-size: 2rem;
-    margin-bottom: 10rem;
-    font-weight: normal;
-    margin-right: 30em;
-    margin-top: -1.5em;
-    display: flex;  
-  }
-  .hero-about {
-    font-family: 'Papyrus', sans-serif;
-    font-size: 2rem;
-    margin-bottom: 10rem;
-    font-weight: normal;
-    margin-right: 30em;
-    margin-top: -1.5em;
-    display: flex; 
-  }
-    
-  footer {
-    background-color: #A9CCE3;
-    box-shadow: 0 -2px 4px -2px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-    
-  .footer-link {
-    display: inline-block;
-    margin: 0 10px;
   }
   
-  .media-link {
-    height: 30px;
-    margin: 0 10px;
-    width: 30px;
+  nav {
+    margin-top: 20px;
+    gap: 10px;
   }
-    
-  @media screen and (max-width: 768px) {
-    header {
-      flex-direction: column;
-      text-align: center;
-    }
-    
-    nav {
-      margin-top: 20px;
-      gap: 10px;
-    }
-    
-    nav a {
-      font-size: 1rem;
-      padding: 5px;
-    }
-    
-    h1 {
-      font-size: 2.5rem;
-    }
-    
-    h2 {
-      font-size: 1.2rem;
-    }
-    
-    .quote {
+  
+  nav a {
+    font-size: 1rem;
+    padding: 5px;
+  }
+  
+  h1 {
+      font-weight: 300;
       font-size: 2rem;
-    }
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }  
+  h1, h2, section {
+      font-family: 'Raleway', sans-serif;
   }
-    
+  h2 {
+    font-size: 1.2em;
+  }
+  
+  .quote {
+    font-size: 2rem;
+  }
+}
+h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+
+}  
+h1, h2, section {
+  font-family: 'Raleway', sans-serif;
+}
+h2, section {
+font-size: 1.2em;
+margin: 5em;
+padding: 1em;
+}
+
+  
